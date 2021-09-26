@@ -1,0 +1,7 @@
+.colors_list {
+  height: 150px;
+  overflow-y: scroll;
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 0;
+}

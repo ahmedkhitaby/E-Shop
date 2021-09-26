@@ -1,0 +1,18 @@
+.price_inputs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.price_inputs .price_control {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.price_inputs input {
+  height: 2rem;
+  width: 100%;
+  border: 2px solid #000;
+}

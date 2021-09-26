@@ -1,0 +1,30 @@
+.products {
+  margin: 0 10px;
+  flex: 1 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product_cell {
+  width: 30.333%;
+  height: 300px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 750px) {
+  .product_cell {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 648px) {
+  .product_cell {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 469px) {
+  .content {
+    flex-direction: column;
+  }
+  .products {
+    margin: 0;
+  }
+}
