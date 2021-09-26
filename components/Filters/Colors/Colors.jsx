@@ -12,7 +12,7 @@ export default function Colors() {
   useEffect(() => {
     async function getColors() {
       try {
-        const res = await fetch("http://test-api.edfa3ly.io/product");
+        const res = await fetch("https://test-api.edfa3ly.io/product");
         const products = await res.json();
         const colors = [
           ...new Set(products.map((product) => product.color)),

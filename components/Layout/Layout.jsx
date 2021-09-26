@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
     async function fetchCategories() {
-      const catRes = await fetch("http://test-api.edfa3ly.io/category");
+      const catRes = await fetch("https://test-api.edfa3ly.io/category");
       const categories = await catRes.json();
       setCategories(categories);
     }

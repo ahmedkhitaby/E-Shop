@@ -10,7 +10,6 @@ export default function Filters() {
   const filteredColors = colors
     .filter((color) => color.selected)
     .map((color) => color.name);
-  console.log(router.query.category);
   const handleSubmit = (e) => {
     e.preventDefault();
     router.push(

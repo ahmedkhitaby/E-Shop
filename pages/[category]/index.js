@@ -34,10 +34,6 @@ export async function getServerSideProps(ctx) {
           .map((c) => `&color=${c}`)
           .join("")
       : "";
-    console.log(
-      "cooo",
-      `http://test-api.edfa3ly.io/product?${category}${rating}${color}`
-    );
     products = await fetchProducts(
       `http://test-api.edfa3ly.io/product?${category}${rating}${color}`
     );
@@ -47,7 +43,6 @@ export async function getServerSideProps(ctx) {
         else if (to && !from) return p.price <= to;
         else return p.price >= from && p.price <= to;
       });
-      console.log("cc", products);
     }
   }
   return {
