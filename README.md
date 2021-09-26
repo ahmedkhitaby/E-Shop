@@ -1,6 +1,8 @@
 e-shop is a small page that presents edfa3ly products and allows you to filter these products using category, price, rating, and color.
 
-This is [e-shop](https://e-shop-nine.vercel.app/) application live.
+# This is [e-shop](https://e-shop-nine.vercel.app/) application live.
+![e-shop-nine vercel app_1](https://user-images.githubusercontent.com/52051312/134806201-3d67f10e-1419-49f7-92ff-e1d94d32ccc1.png)
+
 
 ## Getting Started
 This application build using [NextJs](https://nextjs.org/) which is the `React` Framework
